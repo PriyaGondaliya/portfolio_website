@@ -1,0 +1,90 @@
+
+[
+    {   
+        "id":1,
+        "image":"images/foodReceipeWeb/home.png",
+        "name":"FoodBite Recipe Website",
+        "desc":"React,javascript,html,css",
+        "link":"https://github.com/PriyaGondaliya/FoodbiteWeb",
+        "sliderImages":["images/foodReceipeWeb/home.png",
+        "images/foodReceipeWeb/home2.png",
+        "images/foodReceipeWeb/receipe.png"
+        ,"images/foodReceipeWeb/receipeHtml.png"
+        ,"images/foodReceipeWeb/searchHtml.png"
+        ,"images/foodReceipeWeb/search.png"
+        ,"images/foodReceipeWeb/aboutHtml.png"
+        ,"images/foodReceipeWeb/contact.png"
+        ,"images/foodReceipeWeb/contactHtml.png"
+        ,"images/foodReceipeWeb/detailHtml.png"
+        ,"images/foodReceipeWeb/galleryHtml.png"
+        ,"images/foodReceipeWeb/gameHtml.png"
+    ]
+    },
+    {
+        "id":2,
+        "image":"images/cakeWebsite/signup.png",
+        "name":"Customize Cake Website",
+        "desc":"Flutter,javascript,html,css",
+        "sliderImages":["images/cakeWebsite/login.png","images/cakeWebsite/signup.png"]
+    },
+    {
+        "id":3,
+        "image":"images/2.jpeg",
+        "name":"Web development",
+        "desc":"React,javascript,html,css",
+        "sliderImages":["images/2.jpeg","images/1.jpeg","images/4.jpeg"]
+    },
+    {
+        "id":4,
+        "image":"images/flowerApp/gift.jpeg",
+        "name":"Gift And Flower Delievery IOS App",
+        "desc":"React,javascript,html,css",
+        "link":"https://github.com/PriyaGondaliya/flower-gift-IOS",
+        "sliderImages":["images/flowerApp/gift.jpeg",
+        "images/flowerApp/splash.jpeg",
+        "images/flowerApp/signup.jpeg",
+        "images/flowerApp/login.jpeg",
+        "images/flowerApp/validation.jpeg",
+        "images/flowerApp/gift.jpeg",
+        "images/flowerApp/flower.jpeg",
+        "images/flowerApp/fav.jpeg",
+        "images/flowerApp/profile.jpeg",
+        "images/flowerApp/profile2.jpeg",
+        "images/flowerApp/detail.jpeg",
+        "images/flowerApp/customize.jpeg",
+        "images/flowerApp/cart.jpeg",
+        "images/flowerApp/shipping.jpeg",
+        "images/flowerApp/payment.jpeg",
+        "images/flowerApp/orders.jpeg"
+    ]
+    },
+    {
+        "id":5,
+        "image":"images/foodbiteAndroidApp/homeAndroid.png",
+        "name":"Recipe Android Application",
+        "desc":"React,javascript,html,css",
+        "link":"https://github.com/PriyaGondaliya/FoodbiteApp",
+        "sliderImages":["images/foodbiteAndroidApp/homeAndroid.png",
+        "images/foodbiteAndroidApp/home2Android.png",
+        "images/foodbiteAndroidApp/splashAndroid.png",
+        "images/foodbiteAndroidApp/detailAndroid.png",
+        "images/foodbiteAndroidApp/detail2Android.png",
+        "images/foodbiteAndroidApp/allAndroid.png"
+    ]
+    },
+    {
+        "id":6,
+        "image":"images/foodbiteAndroidApp/homeAndroid.png",
+        "name":"Recipe Android Application",
+        "desc":"React,javascript,html,css",
+        "link":"https://github.com/PriyaGondaliya/Custom-Cake-Ordering-Hybrid-App",
+        "sliderImages":["images/foodbiteAndroidApp/homeAndroid.png",
+        "images/foodbiteAndroidApp/home2Android.png",
+        "images/foodbiteAndroidApp/splashAndroid.png",
+        "images/foodbiteAndroidApp/detailAndroid.png",
+        "images/foodbiteAndroidApp/detail2Android.png",
+        "images/foodbiteAndroidApp/allAndroid.png"
+    ]
+    }
+]
+

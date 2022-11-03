@@ -1,0 +1,86 @@
+@import "colors.scss";
+
+#project{
+    background-color: $white;
+    // background-image: linear-gradient(to top left,$gold, #fab253,#bed5e8,#f4dbc3,#7bbce3,#be5c54,$black );
+}
+.project__container{
+    margin-top: 4rem;
+    justify-items: center;
+    row-gap:2rem;
+    width: calc(100% - 2rem);
+  margin-left: var(--mb-2);
+  margin-right: var(--mb-2);
+}
+.project__img{
+    position: relative;
+    overflow: hidden;
+    margin-bottom: var(--mb-3);
+    width: 100%;
+    height: 400px;
+    background-color: #FFF;
+    background-color: white;
+    border-radius: .5rem;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(174,190,205,.3);
+}
+.project__data{
+    width: 100%;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.project__subtitle{
+    width: 100%;
+    font-size: var(--small-font);
+    color: $lightBlack;
+    // text-align: center;
+}
+
+.project__img img{
+    // border-radius: .5rem;
+    max-width: 100%;
+    height: 80%;
+    display: block;
+    object-fit: contain;
+}
+.project__link{
+    position: absolute;
+    bottom: -100%;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0,0,0,.3);
+    border-radius: .5rem;
+    cursor: pointer;
+    backdrop-filter: blur(10px);
+    transition: .3s;
+    button{
+       
+        all: unset ;
+    }
+}
+.project__img:hover .project__link{
+    bottom: 0;
+}
+.project__link-name{
+    color: $white;
+}
+.project__link-name:hover{
+    color: $gold;
+}
+
+@media screen and (min-width: 768px){
+    .project__container{
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: repeat(2,1fr);
+        column-gap: 2rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
+       
+    }
+}

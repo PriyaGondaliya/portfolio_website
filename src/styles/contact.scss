@@ -1,0 +1,127 @@
+@import "colors.scss";
+#contact{
+    background-color:#fff;
+    // background-image: linear-gradient(to bottom right,$gold, #fab253,#bed5e8,#f4dbc3,#7bbce3,#be5c54,$black );
+    // background-image: linear-gradient(to bottom right,$yellow, $gray,$lightBlack,$black,$yellow );
+    // background-image: linear-gradient(to top left,$gold, #fab253,#bed5e8,#f4dbc3,#7bbce3,#be5c54,$black );
+}
+    .contact{
+    background-color:$gold;
+    width: 100%;
+    height: 100vh;
+    margin-bottom: 39%;
+    // padding-top: 10rem;
+    h2{
+        margin-top: 5rem;
+        color: $black;
+    }
+}
+.contact__banner{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    filter: blur(.5px);
+}
+.contact__container{
+    z-index: 1;
+    position: relative;
+    margin-top: 3rem;
+    padding-top: 1rem;
+    row-gap: 2rem;
+    max-width: 1024px;
+        display: grid;
+        grid-template-columns: 100%;
+        grid-column-gap: 2rem;
+        width: calc(100% - 2rem);
+        margin-left: var(--mb-2);
+        margin-right: var(--mb-2);
+        justify-items: center;
+       
+}
+.contact__subtitle{
+    font-size: var(--regular-font);
+    color: $black;
+}
+.contact__text{
+    display: inline-block;
+    margin-bottom: var(--mb-2);
+}
+.contact__info{
+    width: 80%;
+    // padding-top: .0rem;
+    padding-left: 0rem;
+    text-align: initial;
+    // justify-content: center;
+   
+}
+.contact__form{
+    width: 80%;
+}
+.contact__inputs{
+
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    column-gap: 1rem;
+}
+.contact__input{
+    width:100%;
+    padding: .8rem;
+    outline: none;
+    border: 1.5px solid $black;
+    font-size: var(--regular-font);
+    margin-bottom: var(--mb-4);
+    border-radius: .5rem;
+    background-color: transparent;
+}
+.contact__button{
+    display: block;
+    background-color: $black;
+    color: $white;
+    padding: .75rem 2.5rem;
+    margin-left: auto;
+    border-radius: .3rem;
+    // border: 2px solid $gold;
+    border: none;
+    outline: none;
+    margin-bottom: 2rem;
+    cursor: pointer;
+    font-weight: var(--regular-font);
+}
+
+.contact__button:hover{
+    background-color: $gold;
+    color: $black;
+}
+
+@media screen and (min-width: 768px){
+    .contact{
+        height: 100vh;
+        width: 100%;
+        margin-bottom: 0;
+    }
+    .contact__container{
+        max-width: 100%;
+        width: 100%;
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
+       
+        padding-left: 2%;
+        padding-right: 5rem;
+    }
+    .contact__info{
+        width: 30%;
+        padding-top: .5rem;
+        padding-left: 5rem;
+
+       
+    }
+    .contact__subtitle{
+        margin-bottom: var(--mb-2);
+    }
+    .contact__text{
+        margin-bottom: var(--mb-4);
+    }
+    .contact__form{
+        width: 70%;
+    }
+}

@@ -1,0 +1,198 @@
+@import "colors.scss";
+.popup{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height:789px;
+    background-color:rgba(0,0,0,0.5);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    button{
+        background-color: currentColor;
+        box-shadow: none;
+        border-radius: 0%;
+        border: none;
+        background: none;
+        cursor: pointer;
+      
+    }
+}
+.popup-inner{
+    position:relative;
+    padding-top: 2%;
+    width: 80%;
+    height: 85%;
+    background-color: transparent;
+}
+.popup-inner .close-btn{
+    position: absolute;
+    top:0;
+    right: 0%;
+    z-index: 1;
+    
+    // background-color: transparent;
+}
+
+// -------------- detail
+
+.productDetail {
+    // background-color: $lightpink;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    // flex-direction: row;
+    .container {
+      background-color: #fff;
+      // border-radius: 10px;
+      // box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+      position: relative;
+      overflow: hidden;
+      // width: 50%;
+      max-width: 100%;
+      height: 100%;
+      display: flex;
+        flex-direction: row;
+      // min-height: 65%;
+      // height: 65%;
+        .image__container{
+            // padding: 2%;
+            width: 70%;
+          
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+     >img{
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+        vertical-align: middle;
+     }
+     .sliderImage{
+      // margin-top: 36rem;  
+      position: relative; 
+      width: 100%;
+      height: 600px;
+      object-fit: contain;
+      // margin-bottom: 39rem;
+  }
+     
+     
+      .detail {
+        // background-color: blue;
+        width: 30%;
+        height: 100%;
+        padding-top: 5%;
+        padding-left: 1%;
+        padding-left: 2rem;
+        padding-right: 2rem;
+  
+        > h1 {
+          font-weight: 600;
+          margin-bottom: 5%;
+          margin-top: 5%;
+          font-family: "Roboto", sans-serif;
+          // color: #000;
+        }
+        > h2 {
+          font-weight: 500;
+          font-family: "Roboto", sans-serif;
+        }
+        > p {
+          color: gray;
+          font-size: 12px;
+          font-weight: 100;
+          line-height: 20px;
+          letter-spacing: 0.5px;
+          // margin: 20px 0 30px;
+        }
+        .desc {
+          color: gray;
+          font-size: 12px;
+          font-weight: 100;
+          line-height: 20px;
+          letter-spacing: 0.5px;
+          margin: 20px 0 30px;
+        }
+       
+      
+      .add{
+          background-color: white;
+          border: 0px;
+          width:10px;
+          height: 1%;
+      }
+      .qtyDiv{
+          display: flex;
+          font-size: 12px;
+      }
+      .qty{
+          font-size: small;
+          margin-left: 2%;
+          margin-right: 1%;
+      }
+        .addToCart{
+          margin-top: 5%;
+          top: 25%;
+          border-radius: 20px;
+          border: 1px solid $gold;
+          background-color: $gold;
+          color: #ffffff;
+          font-size: 12px;
+          font-weight: bold;
+          padding: 12px 45px;
+          letter-spacing: 1px;
+          text-transform: uppercase;
+          position: relative;
+  
+          // bottom: 0%;
+          width: 100%;
+          transition: transform 80ms ease-in;
+        }
+        button:active {
+          transform: scale(0.95);
+        }
+  
+        button:focus {
+          outline: none;
+        }
+  
+        button.ghost {
+          background-color: transparent;
+          border-color: #ffffff;
+        }
+      }
+    }
+       
+  }
+
+  @media screen and (max-width:768px) {
+   .productDetail .container{
+    display: flex;
+    flex-direction: column;
+    .image__container{
+        width: 100%;
+        height: 60%;
+        padding: 2%;
+    }
+    .detail{
+        width: 100%;
+        height: 40%;
+    }
+    .sliderImage{
+      // margin-top: 36rem;  
+     
+      height: 300px;
+      object-fit: contain;
+      // margin-bottom: 39rem;
+  }
+   }
+   
+  }
+  
+  
+  
