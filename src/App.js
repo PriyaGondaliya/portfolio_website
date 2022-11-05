@@ -10,7 +10,7 @@ import "./styles/about.scss";
 import "./styles/home.scss";
 import "./styles/header.scss";
 import "./styles/projects.scss";
-import "./styles/portfolio.scss";
+// import "./styles/portfolio.scss";
 import "./styles/contact.scss";
 import "./styles/skills.scss";
 import "./styles/footer.scss";
@@ -18,7 +18,7 @@ import "./styles/popup.scss";
 import "./App.scss";
 import Skills from "./components/Skills";
 import Footer from "./components/Footer";
-import Portfolio from "./components/Portfolio";
+// import Portfolio from "./components/Portfolio";
 function App() {
   return (
     <>

@@ -1,9 +1,9 @@
 import React from 'react'
 import PortfolioCard from './PortfolioCard';
 import Popup from './Popup';
-import home from '/Users/priya/Documents/portfolio/portfolio-site/src/assets/pImag6.webp';
-import two from '/Users/priya/Documents/portfolio/portfolio-site/src/assets/pImage0.jpeg';
-import three from '/Users/priya/Documents/portfolio/portfolio-site/src/assets/pImage1.jpeg';
+// import home from '/Users/priya/Documents/portfolio/portfolio-site/src/assets/pImag6.webp';
+// import two from '/Users/priya/Documents/portfolio/portfolio-site/src/assets/pImage0.jpeg';
+// import three from '/Users/priya/Documents/portfolio/portfolio-site/src/assets/pImage1.jpeg';
 import data from './data.json';
 import axios from "axios";
 import { useState,useEffect } from "react";

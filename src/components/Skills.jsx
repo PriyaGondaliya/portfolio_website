@@ -20,7 +20,11 @@ const Skills = () => {
                 <span className='skills_name'>Node</span>
                 <span className='skills_name'>Bootstrap</span>
                 <span className='skills_name'>Jquery</span>
+               
+                <h3 className='skills__subtitle '>Mobile</h3>
                 <span className='skills_name'>Flutter</span>
+                <span className='skills_name'>IOS</span>
+                
                 <h3 className='skills__subtitle '>Database</h3>
                 <span className='skills_name'>SQL</span>
                 <span className='skills_name'>MYSQL</span>

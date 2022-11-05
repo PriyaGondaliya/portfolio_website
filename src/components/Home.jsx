@@ -16,7 +16,7 @@ const Home = () => {
           <h6><span className='home__title2'>Full Stack Developer</span></h6>
           <p className='about__text'>
               
-          I enjoy designing and building various types of websites and apps. I have over two years of experience in the field of software development. Good understanding of object-oriented programming concepts, as well as data structures and algorithms.</p>
+          I enjoy designing and building various types of websites and apps. I have over one year of experience in the field of software development. Good understanding of object-oriented programming concepts, as well as data structures and algorithms.</p>
           {/* <form action='' className=''> */}
           <div className='footer__data'>
                 {/* <h2 className='footer__title'>FOLLOW</h2> */}
@@ -31,15 +31,7 @@ const Home = () => {
         {/* </form> */}
       
         </div> 
-      {/* <h1 className='home__title'>
-        <span>HE</span><br/>LLO
-      </h1>
-      <div className='home__scroll'>
-        <a href='#about' className='home__scroll-link'>
-        <box-icon name='up-arrow-alt'></box-icon><span>Scroll Down</span>
-        </a>
-      </div>
-      <img src={home} alt="" className='home__img'></img> */}
+     
     </div>
    </section>
   )

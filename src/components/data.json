@@ -4,8 +4,8 @@
         "id":1,
         "image":"images/foodReceipeWeb/home.png",
         "name":"FoodBite Recipe Website",
-        "desc":"React,javascript,html,css",
-        "link":"https://github.com/PriyaGondaliya/FoodbiteWeb",
+        "desc":["Categorized recipes","Search recipes by ingredient"],
+        "link":"https://github.com/PriyaGondaliya/foodbiteWeb",
         "sliderImages":["images/foodReceipeWeb/home.png",
         "images/foodReceipeWeb/home2.png",
         "images/foodReceipeWeb/receipe.png"
@@ -18,27 +18,38 @@
         ,"images/foodReceipeWeb/detailHtml.png"
         ,"images/foodReceipeWeb/galleryHtml.png"
         ,"images/foodReceipeWeb/gameHtml.png"
-    ]
+    ],
+    "tech":"HTML, CSS, Bootstrap, JavaScript, ajax, jQuery, and JSON"
     },
     {
         "id":2,
         "image":"images/cakeWebsite/signup.png",
         "name":"Customize Cake Website",
-        "desc":"Flutter,javascript,html,css",
-        "sliderImages":["images/cakeWebsite/login.png","images/cakeWebsite/signup.png"]
+        "link":"https://github.com/PriyaGondaliya/customizeCakeWeb",
+        "desc":[],
+        "sliderImages":["images/cakeWebsite/login.png","images/cakeWebsite/signup.png"],
+        "tech":"HTML, CSS, Javascript, React, Node, Express, MongoDb"
     },
     {
         "id":3,
-        "image":"images/2.jpeg",
-        "name":"Web development",
-        "desc":"React,javascript,html,css",
-        "sliderImages":["images/2.jpeg","images/1.jpeg","images/4.jpeg"]
+        "image":"images/portFolio/home.png",
+        "name":"Portfolio Website",
+        "desc":["Responsive UI.","Developed email sending functionality using Email js","Deployed to heroku"],
+        "link":"https://github.com/PriyaGondaliya/portfolio_website",
+        "sliderImages":["images/portFolio/home.png",
+        "images/portFolio/skills.png",
+        "images/portFolio/contact.png",
+        "images/portFolio/projects.png",
+        "images/portFolio/detailProject1.png",
+        "images/portFolio/detailProject2.png"
+    ],
+        "tech":"HTML, CSS, Sass, Javascript, JSON, React"
     },
     {
         "id":4,
         "image":"images/flowerApp/gift.jpeg",
         "name":"Gift And Flower Delievery IOS App",
-        "desc":"React,javascript,html,css",
+        "desc":["IOS e-commerce app functionalities: Includes order, checkout, add/remove products to cart and wishlist, order history and receive order confirmation via email."],
         "link":"https://github.com/PriyaGondaliya/flower-gift-IOS",
         "sliderImages":["images/flowerApp/gift.jpeg",
         "images/flowerApp/splash.jpeg",
@@ -56,13 +67,14 @@
         "images/flowerApp/shipping.jpeg",
         "images/flowerApp/payment.jpeg",
         "images/flowerApp/orders.jpeg"
-    ]
+    ],
+    "tech":"Swift, Firebase"
     },
     {
         "id":5,
         "image":"images/foodbiteAndroidApp/homeAndroid.png",
         "name":"Recipe Android Application",
-        "desc":"React,javascript,html,css",
+        "desc":["View categorized receipe and detail instructions"],
         "link":"https://github.com/PriyaGondaliya/FoodbiteApp",
         "sliderImages":["images/foodbiteAndroidApp/homeAndroid.png",
         "images/foodbiteAndroidApp/home2Android.png",
@@ -70,21 +82,42 @@
         "images/foodbiteAndroidApp/detailAndroid.png",
         "images/foodbiteAndroidApp/detail2Android.png",
         "images/foodbiteAndroidApp/allAndroid.png"
-    ]
+    ],
+    "tech":"Java"
     },
     {
         "id":6,
-        "image":"images/foodbiteAndroidApp/homeAndroid.png",
-        "name":"Recipe Android Application",
-        "desc":"React,javascript,html,css",
+        "image":"images/cakeApp/homeF.png",
+        "name":"Customize Cake Ordering Application [Flutter]",
+        "desc":[
+            "Worked as a team lead in a team of 4 from design to implementation and delivery.",
+            "Managed the task’s flow and fairly distributed it up among the team.",
+            "Presenting the weekly progress through a report.",
+        "Awarded as first prize winner among the class.",
+        "Used the git version control system to keep track of code and team member’s contribution",
+        "Integrated more than 20 unit modules.",
+        "Developed both sides admin and client.",
+        "Authentication: Facebook, Email.",
+        "Payment API: Stripe.",
+        "Filter products by name, size, price.",
+        "Implemented push notification and sharing of product details via text message."
+    ],
         "link":"https://github.com/PriyaGondaliya/Custom-Cake-Ordering-Hybrid-App",
-        "sliderImages":["images/foodbiteAndroidApp/homeAndroid.png",
-        "images/foodbiteAndroidApp/home2Android.png",
-        "images/foodbiteAndroidApp/splashAndroid.png",
-        "images/foodbiteAndroidApp/detailAndroid.png",
-        "images/foodbiteAndroidApp/detail2Android.png",
-        "images/foodbiteAndroidApp/allAndroid.png"
-    ]
+        "sliderImages":["images/cakeApp/homeF.png",
+        "images/cakeApp/signupF.png",
+        "images/cakeApp/loginF.png",
+        "images/cakeApp/profileF.png",
+        "images/cakeApp/listF.png",
+        "images/cakeApp/detailF.png",
+        "images/cakeApp/customF.png",
+        "images/cakeApp/custom2F.png",
+        "images/cakeApp/cartF.png",
+        "images/cakeApp/shippingF.png",
+        "images/cakeApp/paymentF.png",
+        "images/cakeApp/orderF.png",
+        "images/cakeApp/orderDetailF.png"
+    ],
+    "tech":"Flutter, Firebase, Git, Dart"
     }
 ]
 

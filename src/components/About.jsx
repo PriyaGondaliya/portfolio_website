@@ -1,12 +1,12 @@
 import React from 'react'
-import home from '../assets/1.jpeg';
+// import home from '../assets/1.jpeg';
 const About = () => {
   return (
     <section className='about section' id='about'>
         <h2 className='section-title'>About</h2>
         <div className='about__container reveal'>
           <div className='about__img'>
-            <img src={home} alt=""/>
+            {/* <img src={home} alt=""/> */}
           </div>
           <div className='about__info'> 
             <h2 className='about__subtitle'>I am Priya Gondaliya</h2>
