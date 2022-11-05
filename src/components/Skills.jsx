@@ -1,5 +1,5 @@
 import React from 'react'
-import home from '/Users/priya/Documents/portfolio/portfolio-site/src/assets/gL1.webp';
+import home from '../assets/gL1.webp';
 const Skills = () => {
   return (
     <section className="skills section reveal" id="skills">
