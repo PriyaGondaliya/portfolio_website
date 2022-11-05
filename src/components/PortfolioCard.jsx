@@ -1,5 +1,5 @@
 import React from "react";
-
+import profile from '../assets/img4.jpeg';
 const PortfolioCard = (props) => {
    
   return (
