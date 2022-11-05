@@ -34,7 +34,7 @@
         "id":3,
         "image":"images/portFolio/home.png",
         "name":"Portfolio Website",
-        "desc":["Responsive UI.","Developed email sending functionality using Email js","Deployed to heroku"],
+        "desc":["Responsive UI.","Developed email sending functionality using Email js","Deployed to github pages"],
         "link":"https://github.com/PriyaGondaliya/portfolio_website",
         "sliderImages":["images/portFolio/home.png",
         "images/portFolio/skills.png",
